@@ -15,7 +15,7 @@ function getComputerChoice(){
 }
 
 function getUserChoice(){
-  const choice=prompt("Enter your choice(Rock, Paper or Scissor):").toUpperCase();
+  const choice=prompt("Enter your choice(Rock, Paper or Scissors):").toUpperCase();
   return choice
 }
 let computerScore = 0;
